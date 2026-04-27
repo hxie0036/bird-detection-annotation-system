@@ -49,11 +49,11 @@ Detection → Annotation → Classification
 
 ## Project Structure
 
-code/
-├── annotation.py # YOLO-based detection + XML annotation
-├── classifier.py # ResNet50 classification
-├── gui.py # User interface for annotation tool
-├── class_names.json # Label mapping
+    code/
+    ├── annotation.py      # YOLO-based detection and XML generation
+    ├── classifier.py      # ResNet50-based image classification
+    ├── gui.py             # GUI for annotation tool
+    ├── class_names.json   # Class label mapping
 
 ---
 
